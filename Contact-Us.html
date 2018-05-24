@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<!--
+	Helios by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Contact Us</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<link rel="shortcut icon" type="image/x-icon" href="images/pfp_favicon.png" />
+		<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+	</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+
+					<!-- Inner -->
+						<div class="inner">
+							<header>
+								<h1><a href="index.html" id="logo">Pro-Form Packaging</a></h1>
+								<p>P: <a href="tel+17329688123">(732) 968-8123</a>	E: <a href="mailto:info@proformpackaging">info@proformpackaging.com</a></p>
+							</header>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html"><strong>Home</strong></a></li>
+								<li>
+									<a href="Products.html"><strong>Products</strong></a>
+									<ul>
+										<li><a href="Trays.html">Trays</a></li>								
+										<li><a href="Clamshells.html">Clamshells</a></li>
+										<li><a href="Reels.html">Reels</a></li>
+										<li><a href="Blisters.html">Blisters</a></li>
+										<li><a href="Heavy-Gague.html">Heavy Gague</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="Industries-Served.html"><strong>Industries Served</strong></a>
+									<ul>
+										<li><a href="Automotive.html">Automotive</a></li>
+										<li><a href="Medical.html">Medical</a></li>
+										<li><a href="Food-Packaging.html">Food Packaging</a></li>
+										<li><a href="Cosmetics.html">Cosmetics</a></li>
+									</ul>
+								</li>
+								<li><a href="About-Us.html"><strong>About Us</strong></a></li>
+								<li><a href="Contact-Us.html"><strong>Contact Us</strong></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style1">
+
+					<div class="container">
+						<article id="main" class="special">
+							<header>
+								<h2>Contact Us</h2>
+							</header>
+							
+
+							<div id="map"></div>
+    							<script>
+      								function initMap() {
+							        	var uluru = {lat: 40.5862, lng: -74.4716}; 
+							        	var map = new google.maps.Map(document.getElementById('map'), {
+							         		zoom: 14,
+							          		center: uluru
+							        	});
+							        	var marker = new google.maps.Marker({
+							        		position: uluru,
+							        		map: map
+							        	});
+							      }
+							    </script>
+							    <script async defer
+							    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTlSXyqUqwOsBaiRU2FAq_D49mlJYl72k&callback=initMap">
+							    </script>
+							<p>
+								We're Located at the end of North Avenue Extension off Route 28 in the heart of Dunellen, NJ.
+							</p>
+							<p>
+								777 N Avenue Ext.
+							</p>
+							<p>
+								Dunellen, NJ 08812
+							</p>
+
+							<section>
+								<header>
+									<h3>Give us a call or send us an email</h3>
+								</header>
+							<p>
+								Phone: <a href="tel+17329688123">(732) 968-8123</a>
+							</p>
+							<p>
+								E-mail: <a href="mailto:info@proformpackaging">info@proformpackaging.com</a>
+							</p>
+							</section>
+							<section>
+								<header>
+									<h3>You can also contact us by using the form below</h3><br>
+								</header>
+							</section>
+						</article>
+						<form 
+					  		action="form.php"
+					  		method="POST">
+
+
+							<input type="text" size="20" name="VisitorName" placeholder="Your Name"><br><br>
+
+							<input type="email" size="20" name="VisitorEmail" placeholder="Your Email"><br><br>
+
+							<textarea type="text" name="VisitorComment" cols="20" rows="4" placeholder="Message"></textarea><br><br>
+
+							<input id="submit" type="submit" name="submit" value="Submit">
+
+						</form>
+					</div>
+				</div>
+
+			</div>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="12u">
+
+
+
+								<!-- Copyright -->
+									<div class="copyright">
+										<ul class="menu">
+											<li>&copy; Pro-Form Packaging Inc. 2018</li><li><a href="https://goo.gl/maps/9icMefNCiQL2">777 N Avenue Ext. Dunellen, NJ 08812</a></li><li><a href="mailto:info@proformpackaging">info@proformpackaging.com</a></li><li><a href="tel+17329688123">(732) 968-8123</a></li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.onvisible.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=1165216; 
+var sc_invisible=0; 
+var sc_security="ea3bc8ac"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/1165216/0/ea3bc8ac/0/" alt="Web
+Analytics"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+	</body>
+</html>
