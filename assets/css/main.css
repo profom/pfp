@@ -1604,6 +1604,7 @@
 	h4 {
 		font-size: 1em;
 		margin: 0 0 0.25em 0;
+		text-align: center;
 	}
 
 	strong, b {
@@ -1653,7 +1654,7 @@
 	}
 
 	p {
-		text-align: justify;
+		text-align: center;
 	}
 
 	br.clear {
